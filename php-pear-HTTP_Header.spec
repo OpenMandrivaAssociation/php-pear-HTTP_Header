@@ -3,10 +3,12 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -82,5 +84,3 @@ rm -rf %{buildroot}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
