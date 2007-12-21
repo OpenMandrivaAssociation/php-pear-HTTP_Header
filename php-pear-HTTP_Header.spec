@@ -20,6 +20,7 @@ Requires(preun): php-pear-HTTP >= 1.2
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This class provides methods to set/modify HTTP-Headers. To abstract
