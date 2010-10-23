@@ -5,8 +5,8 @@
 %define		_requires_exceptions pear(PHPUnit.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.2.0
-Release:	%mkrel 6
+Version:	1.2.1
+Release:	%mkrel 1
 Summary:	OO-Interface to modify HTTP-Headers easily
 License:	PHP License
 Group:		Development/PHP
