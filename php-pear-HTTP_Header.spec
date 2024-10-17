@@ -8,7 +8,7 @@ Release:	5
 Summary:	OO-Interface to modify HTTP-Headers easily
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTTP_Header/
+URL:		https://pear.php.net/package/HTTP_Header/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
